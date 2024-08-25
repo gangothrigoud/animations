@@ -1,0 +1,56 @@
+
+
+
+
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+img {
+    width: 40px;
+}
+
+#checkbox {
+    display: none;
+  
+}
+
+.content>p {
+    background-color: #3586ae;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.content {
+   
+    overflow: hidden;
+    transition:  all 2s ease-in;
+    position: absolute;
+    left: -300px;
+    position: absolute;
+    
+    border-radius: 0px 10px 10px;
+   
+
+}
+
+
+p{
+    display: block;
+    
+}
+
+#checkbox:checked+.content {
+ transform: translateX(300px);
+    
+}
+
+    

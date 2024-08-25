@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    background-color:orchid;
+    font-size: 3rem;
+    
+}
+h1:hover{
+    background-color: rgb(100, 210, 237);
+    filter: brightness(50%);
+}
+
+body {
+    background:rgb(173, 221, 13);
+  }
+  
+  .chessboard {
+    width: 600px;
+    aspect-ratio: 1;
+    margin:auto;
+    box-shadow: 5px 5px 2px 2px hsla(0, 40%, 20%, 0.5);
+    padding: 40px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+    background-color: #eee;
+  }
+
+.row {
+    display:flex;
+}
+.row div {
+    aspect-ratio: 1;
+    flex-grow: 1;
+}
+.black {
+    background-color:green;
+    overflow: hidden;
+}
+
+.white {
+    background-color: #ddd;
+    overflow: hidden;
+}
+img{
+    height:75px;
+    width:75px;
+    vertical-align: top;
+    overflow: hidden;
+    object-fit: cover;
+    transition: all .5s ease;
+}
+img:hover{
+    transform: scale(1.2);
+    filter:brightness(70%)
+}
